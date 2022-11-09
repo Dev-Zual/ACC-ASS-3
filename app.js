@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("route is working!");
+  res.send("route is working! in acc");
 });
 
 module.exports = app;
